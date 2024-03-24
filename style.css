@@ -1,0 +1,25 @@
+.nav-item { 
+    border-radius: 10px;   
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    background-color:black;    
+  }
+  
+  .nav-item .phase-details {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  
+  .nav-item:hover .phase-details {
+    display: block;
+  }
